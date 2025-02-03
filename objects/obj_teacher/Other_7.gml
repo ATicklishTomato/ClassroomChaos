@@ -7,7 +7,7 @@ if (sprite_index == TeacherSmack) {
 			target.tantrum = false;
 			target.tantrum_timeout_counter = 10000;
 			global.teacher_score += 10;
-			chaos = max(0, chaos - 5);
+			global.chaos = max(0, global.chaos - 5);
 		}
 	}
 	sprite_index = Teacher
