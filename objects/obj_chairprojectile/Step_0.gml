@@ -7,4 +7,7 @@ if target != noone && target.object_index == obj_student && target.tantrum {
 	instance_destroy();
 } else if target != noone && target.object_index == obj_inviswall {
 	instance_destroy();
+} else if x > 1920 || x < 0 || y > 1080 || y < 0 {
+	//Out of bounds
+	instance_destroy();
 }

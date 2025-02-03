@@ -32,7 +32,8 @@ else if (keyboard_check(ord("S")) && !place_meeting(x, y+char_speed, global.coll
 
 if mouse_check_button(mb_left) && !has_chair {
 	var target = instance_position(mouse_x, mouse_y, obj_chair);
-	if target != noone && target.object_index == obj_chair {
+	var euclid_dist = sqrt(power(mouse_x - x, 2) + power(mouse_y - y, 2));
+	if  euclid_dist < 200 && target != noone && target.object_index == obj_chair {
 		instance_destroy(target.id);
 		sprite_index = TeacherChair;
 		has_chair = true;
