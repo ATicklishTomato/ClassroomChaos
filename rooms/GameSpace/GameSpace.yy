@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"GameSpace",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/GameSpace/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -86,6 +86,7 @@
     {"name":"inst_583C7147","path":"rooms/GameSpace/GameSpace.yy",},
     {"name":"inst_24025CC6","path":"rooms/GameSpace/GameSpace.yy",},
     {"name":"inst_9D5918","path":"rooms/GameSpace/GameSpace.yy",},
+    {"name":"inst_44C23C80","path":"rooms/GameSpace/GameSpace.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -170,6 +171,7 @@
         {"$GMRInstance":"v1","%Name":"inst_583C7147","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_583C7147","objectId":{"name":"obj_inviswall","path":"objects/obj_inviswall/obj_inviswall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":28.0,"scaleY":1.0,"x":960.0,"y":32.0,},
         {"$GMRInstance":"v1","%Name":"inst_24025CC6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_24025CC6","objectId":{"name":"obj_inviswall","path":"objects/obj_inviswall/obj_inviswall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":28.0,"scaleY":1.0,"x":960.0,"y":1056.0,},
         {"$GMRInstance":"v1","%Name":"inst_9D5918","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_9D5918","objectId":{"name":"obj_inviswall","path":"objects/obj_inviswall/obj_inviswall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":17.0,"x":1888.0,"y":544.0,},
+        {"$GMRInstance":"v1","%Name":"inst_44C23C80","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_44C23C80","objectId":{"name":"obj_board","path":"objects/obj_board/obj_board.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":10.608178,"scaleX":1.5614035,"scaleY":1.4343891,"x":96.0,"y":704.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Floor","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Floor","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":17,"SerialiseWidth":30,"TileCompressedData":[
           -31,-2147483648,-3,1,-14,5,-4,8,-7,5,-2,-2147483648,-2,5,-2,6,-4,8,1,5,-4,6,-4,5,-4,8,-2,15,11,6,15,

@@ -18,6 +18,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"BigFont","order":1,"path":"fonts/BigFont/BigFont.yy",},
+    {"name":"obj_board","order":10,"path":"objects/obj_board/obj_board.yy",},
     {"name":"obj_button","order":5,"path":"objects/obj_button/obj_button.yy",},
     {"name":"obj_chair","order":7,"path":"objects/obj_chair/obj_chair.yy",},
     {"name":"obj_chairprojectile","order":8,"path":"objects/obj_chairprojectile/obj_chairprojectile.yy",},
@@ -30,7 +31,10 @@
     {"name":"GameOver","order":3,"path":"rooms/GameOver/GameOver.yy",},
     {"name":"GameSpace","order":1,"path":"rooms/GameSpace/GameSpace.yy",},
     {"name":"Info","order":2,"path":"rooms/Info/Info.yy",},
+    {"name":"Calm","order":1,"path":"sounds/Calm/Calm.yy",},
+    {"name":"Chaos","order":2,"path":"sounds/Chaos/Chaos.yy",},
     {"name":"Background","order":8,"path":"sprites/Background/Background.yy",},
+    {"name":"Board","order":14,"path":"sprites/Board/Board.yy",},
     {"name":"Button","order":9,"path":"sprites/Button/Button.yy",},
     {"name":"Chair","order":11,"path":"sprites/Chair/Chair.yy",},
     {"name":"ChairProjectile","order":12,"path":"sprites/ChairProjectile/ChairProjectile.yy",},

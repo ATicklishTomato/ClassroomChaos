@@ -1,12 +1,12 @@
 if place_meeting(x, y,  global.collision_objects) {
 	//We're hard stuck, time to force movement
-	if y < 1080/2 {
+	if y < 734/2 {
 		y+= char_speed;
 	} else {
 		y-= char_speed;
 	}
 	
-	if x < 1920/2 {
+	if x < 286/2 {
 		x+= char_speed;
 	} else {
 		x-= char_speed;
@@ -42,10 +42,12 @@ if mouse_check_button(mb_left) && !has_chair {
 		sprite_index = TeacherSmack;
 	}
 } else if mouse_check_button(mb_left) && has_chair && pause_throw <= 0 {
-	var chair = instance_create_layer(x, y, "Instances", obj_chairprojectile);
+	//var chair = instance_create_layer(x, y, "Instances", obj_chairprojectile);
+	var chair = instance_create_depth(x, y, -100, obj_chairprojectile);
 	chair.speed = 30;
 	chair.direction = point_direction(x, y, mouse_x, mouse_y);
 	has_chair = false;
+	sprite_index = Teacher;
 } else if mouse_check_button(mb_left) && has_chair {
 	pause_throw -= 1;
 }

@@ -11,6 +11,7 @@ if (mouse_check_button_released(mb_left))
 
 	if (hovering) 
 	{
+		audio_play_sound(Click, 1, false);
 		if target == 3 {
 			game_end();
 		} else {
