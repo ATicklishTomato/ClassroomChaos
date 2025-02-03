@@ -3,11 +3,11 @@ if (sprite_index == TeacherSmack) {
 	show_debug_message("Distance: "+ string(euclid_dist));
 	if euclid_dist < 200 {
 		var target = instance_position(mouse_x, mouse_y, obj_student);
-		show_debug_message(string(target != noone) + string(target.object_index == obj_student) + string(target.tantrum));
 		if target != noone && target.object_index == obj_student {
 			target.tantrum = false;
 			target.tantrum_timeout_counter = 10000;
-			show_debug_message(string(target.tantrum));
+			global.teacher_score += 10;
+			chaos = max(0, chaos - 5);
 		}
 	}
 	sprite_index = Teacher
